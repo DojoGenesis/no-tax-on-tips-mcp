@@ -1,0 +1,23 @@
+{
+  "version": "2026-04-13",
+  "source_url": "https://www.irs.gov/TippedOccupations",
+  "categories": {
+    "beverage_food_service": ["wait_staff", "bartender_barback", "host_busser_runner"],
+    "transportation_delivery": ["rideshare_driver", "delivery_driver", "taxi_driver", "valet_parking"],
+    "personal_appearance_wellness": ["hairstylist_barber", "nail_technician", "massage_therapist"],
+    "hospitality_guest_services": ["hotel_concierge_bellhop"]
+  },
+  "all_codes": [
+    "wait_staff",
+    "bartender_barback",
+    "host_busser_runner",
+    "rideshare_driver",
+    "delivery_driver",
+    "taxi_driver",
+    "valet_parking",
+    "hairstylist_barber",
+    "nail_technician",
+    "massage_therapist",
+    "hotel_concierge_bellhop"
+  ]
+}

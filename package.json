@@ -1,0 +1,33 @@
+{
+  "name": "no-tax-on-tips-mcp",
+  "version": "1.1.0",
+  "description": "MCP server exposing OBBBA No-Tax-on-Tips federal deduction logic as callable tools.",
+  "type": "module",
+  "bin": {
+    "no-tax-on-tips-mcp": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vitest": "^4.1.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
